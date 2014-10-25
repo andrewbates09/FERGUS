@@ -13,7 +13,9 @@ The intent is to create a packaged project that can be grabbed and easily extend
 
 ## Speech to Text
 
-## Database
+## Command Database
+
+## Response Algorithms
 
 # Installation
 TODO: installation instructions go here
