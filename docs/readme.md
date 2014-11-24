@@ -12,7 +12,7 @@ Essentially, this all breaks down to combining different available modules and a
 Using the [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/) cross-platform audio I/O library, FERGUS can transcribe and parse user input.
 
 ## Speech Analysis
-With the use of a [Natural Language Toolkit](http://www.nltk.org/), [NumPy](www.numpy.org), and [General Hidden Markov Models](http://ghmm.org/), 
+With the use of a [Natural Language Toolkit](http://www.nltk.org/), [NumPy](www.numpy.org), and [General Hidden Markov Models](http://ghmm.org/), the FERGUS core is being designed to parse human speech into computer useable commands.
 
 
 ## Command Database
