@@ -4,7 +4,7 @@ docs
 FERGUS documentation is planned to be driven by [sphinx](http://sphinx-doc.org/), but will simply be [Markdown](http://daringfireball.net/projects/markdown/syntax) for now.
 
 # Core System
-The FERGUS core is designed to take in a verbal command, parse the commmand and query a database of known commands, execute the command, and return an appropriate result.
+The FERGUS core is designed to take in a verbal command, parse the commmand and query a database of known commands, execute the command, and return an appropriate result.  As one might be able to imagine, the core and library designs are heavily influenced by operating system infrastructure.
 
 Essentially, this all breaks down to combining different available modules and adding necessary components to tie them together.  This is what make up the core of this Extendable System.
 
@@ -13,7 +13,6 @@ Using the [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/) cross-platform 
 
 ## Speech Analysis
 With the use of a [Natural Language Toolkit](http://www.nltk.org/), [NumPy](www.numpy.org), and [General Hidden Markov Models](http://ghmm.org/), the FERGUS core is being designed to parse human speech into computer useable commands.
-
 
 ## Command Database
 The basic commands are defined withing the [core](https://github.com/andrewbates09/FERGUS/tree/master/core).  Community added applications interfaces and commands exist within the [library](https://github.com/andrewbates09/FERGUS/tree/master/library).  To start out, the core will have the commands necessary to interact with a user-extendable [SQLite](http://www.sqlite.org/) database, which can record the call-count of different FERGUS functions.
