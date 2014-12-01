@@ -31,6 +31,6 @@ This project will be designed with security in mind, but more time is needed ful
 
 Possible ways of extending the project includes but is certainly not limited to utilizing [OpenCV](http://docs.opencv.org/) to add [image processing](http://docs.opencv.org/trunk/doc/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html#py-table-of-content-imgproc), [video analysis](http://docs.opencv.org/trunk/doc/py_tutorials/py_video/py_table_of_contents_video/py_table_of_contents_video.html#py-table-of-content-video), and [object detection](http://docs.opencv.org/trunk/doc/py_tutorials/py_objdetect/py_table_of_contents_objdetect/py_table_of_contents_objdetect.html#py-table-of-content-objdetection).
 
-Ability to see networks and devices - [sys](https://docs.python.org/3/library/sys.html), [nmap](https://pypi.python.org/pypi/python-nmap), [wi-finder](https://github.com/mpescimoro/wi-finder/blob/master/wifinder.py)
+Ability to see networks and devices - [sys](https://docs.python.org/3/library/sys.html), [nmap](https://pypi.python.org/pypi/python-nmap), [wi-finder](https://github.com/mpescimoro/wi-finder/blob/master/wifinder.py) - or infrastructure monitor [Nagios](http://www.nagios.org/)
 
 TODO: add documentation about FERGUS, the core, installation, and extension
