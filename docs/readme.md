@@ -9,7 +9,7 @@ The FERGUS core is designed to take in a verbal command, parse the commmand and 
 Essentially, this all breaks down to combining different available modules and adding necessary components to tie them together.  This is what make up the core of this Extendable System.
 
 ## Speech Recognition
-Using the [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/) cross-platform audio I/O library, FERGUS can transcribe and parse user input.
+Using the [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/) cross-platform audio I/O library, FERGUS can transcribe and parse user input.  Although it looks like PyAudio is kindof outdated and [Speech Recognition](https://pypi.python.org/pypi/SpeechRecognition) should better fit the task.
 
 ## Speech Analysis
 With the use of a [Natural Language Toolkit](http://www.nltk.org/), [NumPy](www.numpy.org), and [General Hidden Markov Models](http://ghmm.org/), the FERGUS core is being designed to parse human speech into computer useable commands.
