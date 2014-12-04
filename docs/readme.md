@@ -33,7 +33,7 @@ Possible ways of extending the project includes but is certainly not limited to 
 
 Ability to see networks and devices - [sys](https://docs.python.org/3/library/sys.html), [nmap](https://pypi.python.org/pypi/python-nmap), [wi-finder](https://github.com/mpescimoro/wi-finder/blob/master/wifinder.py) - or infrastructure monitor [Nagios](http://www.nagios.org/)
 
-Daily data log. Either in dedicated sqlite db or as files in a log folder.
-- key#, date, data
+Daily data log, probably kept in a sql db log file.
+- log#, date, data - see [datatypes](https://www.sqlite.org/datatype3.html) and [limits](https://www.sqlite.org/limits.html)
 
 TODO: add documentation about FERGUS, the core, installation, and extension
