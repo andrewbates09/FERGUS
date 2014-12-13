@@ -8,7 +8,7 @@ The FERGUS core is designed to take in a verbal command, parse the commmand and 
 
 Essentially, this all breaks down to combining different available modules and adding necessary components to tie them together.  This is what make up the core of this Extendable System.
 
-## Speech Recognition
+## Speech Recognition (speech to text)
 Using the [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/) cross-platform audio I/O library, FERGUS can transcribe and parse user input.  Although it looks like PyAudio is kindof outdated and [Speech Recognition](https://pypi.python.org/pypi/SpeechRecognition) should better fit the task.
 
 ## Speech Analysis
@@ -17,7 +17,7 @@ With the use of a [Natural Language Toolkit](http://www.nltk.org/), [NumPy](www.
 ## Command Database
 The basic commands are defined withing the [core](https://github.com/andrewbates09/FERGUS/tree/master/core).  Community added applications interfaces and commands exist within the [library](https://github.com/andrewbates09/FERGUS/tree/master/library).  To start out, the core will have the commands necessary to interact with a user-extendable [SQLite](http://www.sqlite.org/) database, which can record the call-count of different FERGUS functions.
 
-## Speech to Text
+## Text to Speech
 For response handling, output will be directed through [pyttsx](http://pyttsx.readthedocs.org/en/latest/index.html), a cross-platform text-to-speech module, which is included in [PyPI](https://pypi.python.org/pypi).
 
 # Installation
