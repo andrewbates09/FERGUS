@@ -1,7 +1,7 @@
-Library > Modules
+Library > Extensions
 ======
 
-Library modules are for separate hardware components and extensions.
+Library Extensions are for separate hardware components and extensions.
 
 # Raspbery Pi B+
 

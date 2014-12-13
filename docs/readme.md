@@ -21,6 +21,12 @@ The basic commands are defined withing the [core](https://github.com/andrewbates
 For response handling, output will be directed through [pyttsx](http://pyttsx.readthedocs.org/en/latest/index.html), a cross-platform text-to-speech module, which is included in [PyPI](https://pypi.python.org/pypi).
 
 # Installation
+This project has a lot of dependencies. Initially to use, everyone is going to just have to download the dependencies on their own to use the core.  In the future, I hope to implement an internal dependency handler.  You might have gotten a feel of the dependencies from the documentation above, but I will go ahead and make a list so it is easy.
+1. [pip](https://pip.pypa.io/en/latest/installing.html#id7)
+2. [PyAudio](http://people.csail.mit.edu/hubert/pyaudio/)
+3. [SpeechRecognition](https://pypi.python.org/pypi/SpeechRecognition)
+
+
 TODO: installation and basic useage instructions go here
 
 # Testing
